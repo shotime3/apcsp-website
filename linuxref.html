@@ -1,20 +1,65 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Student Page</title>
+    <title>Linux Ref</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
   </head>
   <body>
+ <h1>Linux Ref</h1>
 
-    <h1>This is my Student Test website</h1>
+<table style="width:70%">
+  <tr>
+	<th>Command Name</th>
+	<th>Description</th>
+	<th>Example</th>
+  </tr>
+  <tr>
+	<td>echo</td>
+	<td>It repeats the message</td>
+	<td>Echo hello world makes the computer say hello world in the next line.</td>
+  </tr>
+  <tr>
+	<td>date</td>
+	<td>It tells us the hostname</td>
+	<td>Entering hostname shows rpi08</td>
+  </tr>
+  <tr>
+        <td>arch</td>
+        <td>print machine architecture</td>
+        <td>entering arch shows armv7l</td>
+  </tr>
+  <tr>
+        <td>uname -a</td>
+        <td>Print certain system information</td>
+        <td>entering uname -a shows Linux rpi08 4.14.79-v7+#1159 SMP Sun Nov 4 17:50:20 GMT 2018 armv7l GNU/Linux</td>
+  </tr>
+  <tr>
+        <td>uptime</td>
+        <td>uptime gives a one line display of the following current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.</td>
+        <td>Entering uptimes shows 16:17:57 up 13 days, 19:40, 1 user, load average: 0.25, 0.34, 0.37</td>
+  </tr>
+  <tr>
+        <td>who</td>
+        <td>Print information about users who are currently logged in.</td>
+        <td>Entering who shows sp1a  pts/1 2019-04-29 15:26 (172.19.218.120)</td>
+  </tr>
+  <tr>
+        <td>id</td>
+        <td>Print user and group</td>
+        <td>Entering id shows uid=1002(sp1a) gid=1003(sp1a) groups=1003(sp1a),997(gpio),1007(studnetgrp)</td>
+  </tr>
+  <tr>
+	<td>ls</td>
+	<td>Displays files in current directory</td>
+	<td>ls websites</td>
+  </tr>
+  <tr>
+        <td>cd</td>
+        <td>Moves user into chosen directory</td>
+        <td>cd scripts moves the user into the scripts directory</td>
+  </tr>
 
-    <p>I will make this web site much better by researching HTML and practicing Linux!</p>
-
-    <li>item1</li>
-    <li>item2</li>
-<button>Click me</button>
+    <p>This is my Linux Reference Page</p>
+	</table>
   </body>
-<body>
-<h1> This is a test heading</h1>
-<a href=https://www.google.com>this is google</a>
-</body>
 </html>
